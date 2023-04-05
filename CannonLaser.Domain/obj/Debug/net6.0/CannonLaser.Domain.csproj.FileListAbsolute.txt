@@ -1,0 +1,15 @@
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\bin\Debug\net6.0\CannonLaser.Domain.deps.json
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\bin\Debug\net6.0\CannonLaser.Domain.dll
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\bin\Debug\net6.0\CannonLaser.Domain.pdb
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\bin\Debug\net6.0\CannonLaser.Repository.dll
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\bin\Debug\net6.0\CannonLaser.Repository.pdb
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.csproj.AssemblyReference.cache
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.AssemblyInfoInputs.cache
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.AssemblyInfo.cs
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.csproj.CopyComplete
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.dll
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\refint\CannonLaser.Domain.dll
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\CannonLaser.Domain.pdb
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser.Domain\obj\Debug\net6.0\ref\CannonLaser.Domain.dll

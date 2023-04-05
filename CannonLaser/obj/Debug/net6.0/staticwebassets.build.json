@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "N7r95U5zykGE7mwHItWFjYwLgW0oLTu22tdFX07TsAw=",
+  "Source": "CannonLaser.API",
+  "BasePath": "_content/CannonLaser.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

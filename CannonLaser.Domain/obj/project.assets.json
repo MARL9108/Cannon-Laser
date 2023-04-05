@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CannonLaser.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CannonLaser.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CannonLaser.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CannonLaser.Repository/1.0.0": {
+      "type": "project",
+      "path": "../CannonLaser.Repository/CannonLaser.Repository.csproj",
+      "msbuildProject": "../CannonLaser.Repository/CannonLaser.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CannonLaser.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\maalrilo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\maalrilo\\source\\repos\\CannonLaser\\CannonLaser.Domain\\CannonLaser.Domain.csproj",
+      "projectName": "CannonLaser.Domain",
+      "projectPath": "C:\\Users\\maalrilo\\source\\repos\\CannonLaser\\CannonLaser.Domain\\CannonLaser.Domain.csproj",
+      "packagesPath": "C:\\Users\\maalrilo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maalrilo\\source\\repos\\CannonLaser\\CannonLaser.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\maalrilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\maalrilo\\source\\repos\\CannonLaser\\CannonLaser.Repository\\CannonLaser.Repository.csproj": {
+              "projectPath": "C:\\Users\\maalrilo\\source\\repos\\CannonLaser\\CannonLaser.Repository\\CannonLaser.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
