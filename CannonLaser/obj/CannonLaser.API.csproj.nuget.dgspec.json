@@ -162,6 +162,10 @@
               "target": "Package",
               "version": "[5.2.9, )"
             },
+            "NSwag.Annotations": {
+              "target": "Package",
+              "version": "[13.18.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

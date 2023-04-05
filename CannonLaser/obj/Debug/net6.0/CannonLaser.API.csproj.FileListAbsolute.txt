@@ -39,3 +39,4 @@ C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser\bin\Debug\net6.0\System.N
 C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser\bin\Debug\net6.0\System.Web.Http.dll
 C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\maalrilo\source\repos\CannonLaser\CannonLaser\bin\Debug\net6.0\NSwag.Annotations.dll

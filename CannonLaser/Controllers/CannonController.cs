@@ -2,12 +2,13 @@
 using CannonLaser.Repository.Models;
 using CannonLaser.Repository.Response;
 using Microsoft.AspNetCore.Mvc;
+using NSwag.Annotations;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace CannonLaser.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/[controller]")]
     public class CannonController : ControllerBase
     {
         private readonly ICannonLoader cannonLoader;
@@ -16,15 +17,15 @@ namespace CannonLaser.API.Controllers
         {
             this.cannonLoader = cannonLoader;
         }
+
         /// <summary>
-        /// Get deploy cannons lasers
+        /// Get deployed cannons lasers
         /// </summary>
-        /// <param name="measuredHeights"></param>
-        /// <returns></returns>
-        [HttpPost(Name = "GetCannonLasers")]
-        [ProducesResponseType(typeof(CannonLaserResponse), 200)]
-        [ProducesResponseType(typeof(void), 400)]
-        public async Task<ActionResult<CannonLaserResponse>> Get([FromBody]MeasuredHeights measuredHeights)
+        /// <response code="200">Returns a list with the available sample responses.</response>
+        [HttpPost("GetCannonLasers")]
+        [Swashbuckle.AspNetCore.Annotations.SwaggerResponse(StatusCodes.Status200OK, Type = typeof(CannonLaserResponse))]
+        [Swashbuckle.AspNetCore.Annotations.SwaggerResponse(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<CannonLaserResponse>> GetCannonLasers([FromBody]MeasuredHeights measuredHeights)
         {
             CannonLaserResponse cannonLaser = new CannonLaserResponse();
             var validator = new Validator<MeasuredHeights>();

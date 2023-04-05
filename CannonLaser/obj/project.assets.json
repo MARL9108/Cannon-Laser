@@ -226,6 +226,19 @@
           }
         }
       },
+      "NSwag.Annotations/13.18.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NSwag.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -1970,6 +1983,24 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NSwag.Annotations/13.18.2": {
+      "sha512": "2zDLZXEU1PVuvdMc1k+SIkLonp8vPRHAkto6qQfCeCPqhDaF82+FOWe3TLJIYBS8IC7aV/mT+eoqJLeZvXiN4A==",
+      "type": "package",
+      "path": "nswag.annotations/13.18.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGetIcon.png",
+        "lib/net45/NSwag.Annotations.dll",
+        "lib/net45/NSwag.Annotations.xml",
+        "lib/netstandard1.0/NSwag.Annotations.dll",
+        "lib/netstandard1.0/NSwag.Annotations.xml",
+        "lib/netstandard2.0/NSwag.Annotations.dll",
+        "lib/netstandard2.0/NSwag.Annotations.xml",
+        "nswag.annotations.13.18.2.nupkg.sha512",
+        "nswag.annotations.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -5729,6 +5760,7 @@
     "net6.0": [
       "CannonLaser.Domain >= 1.0.0",
       "Microsoft.AspNet.WebApi.Core >= 5.2.9",
+      "NSwag.Annotations >= 13.18.2",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "Swashbuckle.AspNetCore.Annotations >= 6.5.0"
     ]
@@ -5779,6 +5811,10 @@
           "Microsoft.AspNet.WebApi.Core": {
             "target": "Package",
             "version": "[5.2.9, )"
+          },
+          "NSwag.Annotations": {
+            "target": "Package",
+            "version": "[13.18.2, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
